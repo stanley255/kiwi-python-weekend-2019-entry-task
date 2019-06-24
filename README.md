@@ -63,8 +63,8 @@ DPS,BWN,2019-05-11T22:10:00,2019-05-12T00:35:00,PV197,50,1,30
 ## Output
 * Output data should be in a format that is suitable for further processing
 * Don't make passengers travel trough the same cities in same trip:
-** A->B->A->B is not a valid combination
-** A->B->A is a valid combination
+  * A->B->A->B is not a valid combination
+  * A->B->A is a valid combination
 
 ## Usage
 Input data will be fed into your program through stdin so it should be possible to run it in command line via a command such as cat input.csv | find_combinations.py. The output of your program will be printed to stdout and any errors will go to stderr.
